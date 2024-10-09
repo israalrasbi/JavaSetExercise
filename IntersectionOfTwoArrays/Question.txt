@@ -1,0 +1,5 @@
+Problem: Write a function that takes two arrays and returns an array containing the intersection of the two arrays (elements that appear in both arrays).
+
+Input: [1, 2, 2, 3], [2, 2]
+
+Output: [2]
