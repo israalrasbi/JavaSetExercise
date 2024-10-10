@@ -1,0 +1,5 @@
+Problem: Given two strings, return the characters that appear in both strings as a list of characters.
+
+Input: "hello", "world"
+
+Output: [‘l’, ‘o’]
