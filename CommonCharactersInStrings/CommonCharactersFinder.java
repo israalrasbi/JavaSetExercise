@@ -6,9 +6,9 @@ public class CommonCharactersFinder {
         Scanner sc = new Scanner(System.in);
         //take input from user
         System.out.println("Enter the first string: ");
-        String firstStr = sc.nextLine();
+        String firstStr = sc.nextLine().toLowerCase();
         System.out.println("Enter the second string: ");
-        String secondStr = sc.nextLine();
+        String secondStr = sc.nextLine().toLowerCase();
         System.out.println("The common characters are: " + findCommonChar(firstStr, secondStr));
 
     }
