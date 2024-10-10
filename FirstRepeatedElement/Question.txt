@@ -1,0 +1,5 @@
+Problem: Given an array, find the first element that appears more than once.
+
+Input: [2, 5, 1, 2, 3]
+
+Output: 2
