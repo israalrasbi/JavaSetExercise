@@ -1,0 +1,9 @@
+Problem: Given two arrays, write a function that checks if they are disjoint (i.e., have no elements in common).
+
+Input: [1, 2, 3], [4, 5, 6]
+
+Output: true
+
+Input: [1, 2, 3], [3, 4, 5]
+
+Output: false
