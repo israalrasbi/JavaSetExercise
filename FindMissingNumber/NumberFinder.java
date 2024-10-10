@@ -15,8 +15,6 @@ public class NumberFinder {
             }
             arr.add(number);
         }
-
-        int n = arr.size()+1;
         //print the result
         System.out.println("The missing number is: " + findMissingNumber(arr));
 
