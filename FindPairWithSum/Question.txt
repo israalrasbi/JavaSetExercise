@@ -1,0 +1,4 @@
+Problem: Given an array of integers and a target sum, write a function that returns true if there exists a pair of numbers that add up to the target, otherwise return false.
+Input: [1, 4, 5, 7], Target = 6
+
+Output: true (because 1 + 5 = 6)
