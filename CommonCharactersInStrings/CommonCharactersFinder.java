@@ -1,5 +1,6 @@
 import java.util.HashSet;
 import java.util.Scanner;
+import java.util.Set;
 
 public class CommonCharactersFinder {
     public static void main(String[] args) {
@@ -13,18 +14,24 @@ public class CommonCharactersFinder {
 
     }
 
-    public static HashSet<Character> findCommonChar(String str1, String str2) {
-        HashSet<Character> set = new HashSet<>();
-        //loop through the first string
-        for (int i = 0; i < str1.length(); i++) {
-            //loop through the second string
-            for (int j = 0; j < str2.length(); j++) {
-                //if the current char in the first and second string match, then add it to the set
-                if (str1.charAt(i) == str2.charAt(j)) {
-                    set.add(str1.charAt(i));
-                }
-            }
+    public static Set<Character> findCommonChar(String str1, String str2) {
+        //initialize the first set
+        Set<Character> set1 = new HashSet<>();
+        //convert str1 to set of char array, then add them to the first set
+        for (char c : str1.toCharArray()) {
+            set1.add(c);
         }
-        return set;
+
+        //initialize the second set
+        Set<Character> set2 = new HashSet<>();
+        //convert str2 to set of char array, then add them to the second set
+        for (char c : str2.toCharArray()) {
+            set2.add(c);
+        }
+
+        //use retainAll to keep the common characters in set1
+        set1.retainAll(set2);
+
+        return set1;
     }
 }
