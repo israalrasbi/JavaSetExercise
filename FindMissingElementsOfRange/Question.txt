@@ -1,0 +1,8 @@
+You are given an array of unique integers sorted in increasing order and two integers, lower and upper, which define a range. Your task is to find all integers within this range that are missing from the array.
+
+Input: nums = [1, 3, 5, 7], lower = 1, upper = 10
+Output: [2, 4, 6, 8, 9, 10]
+
+Explanation: The range is from 1 to 10, and the missing numbers in this range (not found in the array) are 2, 4, 6, 8, 9, and 10.
+
+Hint will be provided later 
