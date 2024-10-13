@@ -1,0 +1,13 @@
+Given an array of integers and a positive integer k, slide a "window" of size k over the array from left to right. For each position of this window, count the number of distinct elements inside the window and store these counts in a result list.
+
+Input: arr = [1, 2, 1, 3, 4, 2, 3], k = 4 Output: [3, 4, 4, 3]
+
+Explanation: The windows and their distinct element counts are:
+
+[1, 2, 1, 3] → 3 distinct elements: [1, 2, 3]
+
+[2, 1, 3, 4] → 4 distinct elements: [1, 2, 3, 4]
+
+[1, 3, 4, 2] → 4 distinct elements: [1, 3, 4, 2]
+
+[3, 4, 2, 3] → 3 distinct elements: [3, 4, 2]
