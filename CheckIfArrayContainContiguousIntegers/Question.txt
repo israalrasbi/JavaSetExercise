@@ -1,0 +1,13 @@
+Given an array of distinct integers, determine if the array contains a contiguous sequence of integers. A contiguous sequence means that if the smallest element is min and the largest element is max, then every integer from min to max should be present in the array without any gaps.
+
+Input: arr = [5, 2, 3, 6, 4, 4, 7]
+Output: true (contains contiguous integers from 2 to 7)
+
+Input: arr = [10, 14, 10, 12]
+Output: false (there are gaps in the sequence)
+
+Explanation:
+
+In the first example, all numbers from 2 to 7 are present, so it’s contiguous.
+
+In the second example, numbers like 11 and 13 are missing, so it’s not contiguous.
