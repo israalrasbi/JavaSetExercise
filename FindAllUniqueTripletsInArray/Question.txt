@@ -1,0 +1,14 @@
+Given an array of integers, find all unique triplets that add up to zero. The solution set must not contain duplicate triplets.
+
+Input: nums = [-1, 0, 1, 2, -1, -4]
+Output: [[-1, -1, 2], [-1, 0, 1]]
+
+Explanation:
+
+The valid triplets that sum to zero are:
+
+[-1, -1, 2] (from two occurrences of -1 and 2)
+
+[-1, 0, 1] (from -1, 0, and 1)
+
+The triplet [1, 0, -1] is not included since it's a duplicate of [-1, 0, 1].s
