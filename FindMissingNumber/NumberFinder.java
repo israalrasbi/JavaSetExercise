@@ -7,13 +7,15 @@ public class NumberFinder {
         //take input from user
         Scanner sc = new Scanner(System.in);
         ArrayList<Integer> arr = new ArrayList<>();
+
         System.out.println("Enter numbers to the list, when finished enter -1: ");
-        while(true){
-            int number = sc.nextInt();
-            if(number == -1){
-                break;
-            }
+        int number = sc.nextInt();
+
+        //loop to add the user input to the list, if -1 enter stop the loop
+        while (number != -1) {
             arr.add(number);
+            //get the next number from the user
+            number = sc.nextInt();
         }
         //print the result
         System.out.println("The missing number is: " + findMissingNumber(arr));
