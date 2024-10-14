@@ -1,0 +1,32 @@
+Given a 9x9 Sudoku board (a 2D array), determine if it is valid. The board is valid if:
+
+Each row contains the digits 1-9 without repetition.
+
+Each column contains the digits 1-9 without repetition.
+
+Each of the nine 3x3 sub-boxes contains the digits 1-9 without repetition.
+Input: board =
+[
+    ['5', '3', '.', '.', '7', '.', '.', '.', '.'],
+    ['6', '.', '.', '1', '9', '5', '.', '.', '.'],
+    ['.', '9', '8', '.', '.', '.', '.', '6', '.'],
+    ['8', '.', '.', '.', '6', '.', '.', '.', '3'],
+    ['4', '.', '.', '8', '.', '3', '.', '.', '1'],
+    ['7', '.', '.', '.', '2', '.', '.', '.', '6'],
+    ['.', '6', '.', '.', '.', '.', '2', '8', '.'],
+    ['.', '.', '.', '4', '1', '9', '.', '.', '5'],
+    ['.', '.', '.', '.', '8', '.', '.', '7', '9']
+]
+Output: true
+
+Explanation:
+
+The Sudoku board meets all the conditions:
+
+Each row has unique numbers from 1 to 9, ignoring the '.' placeholders.
+
+Each column also has unique numbers.
+
+Each of the nine 3x3 grids has unique numbers.
+
+Thus, the board is valid.
