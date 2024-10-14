@@ -20,13 +20,8 @@ public class NumberFinder {
 
     }
     public static int findMissingNumber(ArrayList<Integer> arr) {
-        //create set
-        HashSet<Integer> set  = new HashSet<>();
-        //loop through the elements of the array
-        for(int i=0;i<arr.size();i++){
-            //add the element of the array to the set
-            set.add(arr.get(i));
-        }
+        //create set and add the elements of the array
+        HashSet<Integer> set  = new HashSet<>(arr);
 
         //check if there is an element in the array is missing
         for(int i=0;i<=arr.size();i++){
