@@ -1,0 +1,12 @@
+Given an array of integers and a target sum, find all unique pairs of elements within the array that add up to the target sum. Each pair should only appear once, regardless of the order of the elements in the pair.
+
+Input: arr = [1, 5, 7, -1, 5], target = 6
+Output: [(1, 5), (-1, 7)]
+
+Explanation: In this array:
+
+1 + 5 = 6 (pair is (1, 5))
+
+-1 + 7 = 6 (pair is (-1, 7))
+
+The second instance of 5 + 1 is ignored because it’s a duplicate.
