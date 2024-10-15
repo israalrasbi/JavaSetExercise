@@ -1,0 +1,22 @@
+Given a string, determine if any permutation of the string could form a palindrome. Ignore spaces and consider only alphanumeric characters.
+
+
+
+Input: s = "taco cat"
+Output: true
+Input: s = "racecar"
+Output: true
+Input: s = "hello"
+Output: false
+Explanation:
+
+For "taco cat", you can rearrange the letters to form "tacocat", which is a palindrome.
+
+"racecar" is already a palindrome.
+
+For "hello", you cannot form a palindrome because it contains too many characters with odd frequencies (h, e, l, o).
+
+Thus, the output is true for the first two inputs and false for the last.
+
+
+Hint: Use a HashSet to track characters that appear an odd number of times. A palindrome can have at most one character with an odd count.
