@@ -1,0 +1,17 @@
+Given an array of intervals, find the maximum number of non-overlapping intervals. Each interval is represented as a pair of integers, where the first integer is the start time and the second integer is the end time.
+
+Input: intervals = [[1,2],[2,3],[3,4],[1,3]]
+Output: 3
+
+Explanation:
+
+The non-overlapping intervals you can select are:
+
+[1,2] and [2,3] (1-2 and 2-3 are contiguous but do not overlap).
+
+[3,4] can also be selected.
+
+Thus, you can select three intervals: [1,2], [2,3], and [3,4].
+
+
+Hint: Sort the intervals by their end times. Use a HashSet or a simple count to track the last selected interval and ensure the next one does not overlap.
